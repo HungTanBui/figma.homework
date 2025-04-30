@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('/img/body.png');
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* ------------------------------------------ HEADER ------------------------------------------ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 96.43px;
+}
+
+.logo{
+    font-weight: bold;
+    color: #F77E23;
+    width: 126px;
+    height: 41px;
+    top: 27px;
+    left: 100px;
+}
+
+.bars{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+.icon_button{
+    display: flex;
+    gap: 20px;
+}
+
+.fa-magnifying-glass{
+    color: white !important;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.button_header{
+    margin-top: 12px;
+    width: 189px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login{
+    font-weight: bold;
+    width: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.register{
+    font-weight: bold;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: red;
+}
+
+
+.user_icon{
+    display: none;
+}
+
+/* ------------------------------------------ MAIN ------------------------------------------ */
+
+.bg_img{
+    height: 760px;
+    text-align: center;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content h2{
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    width: 650px;
+    height: 160px;
+    top: 170px;
+    left: 327px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.content p{
+    width: 662px;
+    height: 72px;
+    top: 356px;
+    left: 389px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.content button{
+    width: 162px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 70px;
+    top: 20px;
+    left: 42px;
+    right: 42px;
+    bottom: 20px;
+    border: none;
+    outline: none;
+    background: #FF6F28;
+    color: white;
+}
+
+.nav_button button{
+    border: none;
+    outline: none;
+    background: transparent;
+    position: fixed;
+    bottom: 5px;
+    left: 1100px;
+    z-index: 1;
+}
+
+.nav_button button:hover{
+    transform: translateY(-2px);
+    transition: all 300ms ease-out;
+}
+
+nav .main_list{
+    position: absolute;
+    width: 900px;
+    height: 136px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.main_list li a{
+    color: black;
+}
+
+.icon_circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 5000px;
+    margin-right: 20px;
+    background-color: #FFE7DB;
+}
+
+.fa-regular,
+.fa-solid{
+    font-size: 27px;
+    padding: 9px 10px;
+    color: #F77E23;
+    cursor: pointer;
+}
+
+ul li span{
+    font-weight: 500;
+    font-size: 23px;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.fa-arrow-up{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 5000px;
+    background-color: #F77E23;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_2{
+    max-width: 1100px;
+    height: 661px;
+}
+
+.head_main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: "Cascadia Code", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+/* .card_main{
+    position: relative;
+} */
+
+.card_main p{
+    text-align: right;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #F77E23;
+}
+
+.card{
+    margin-top: 50px;
+    width: 1000px;
+    height: 486px;
+    position: relative;
+    z-index: 0;
+} 
+
+.layout{
+    width: 1000px;
+    height: 432px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card{
+    position: relative;
+}
+
+.card img{
+    filter: brightness(50%);
+    width: 250px;
+    height: 430px;
+    cursor: pointer;
+}
+
+.card-title{
+    position: absolute;
+    bottom: 60px;
+    font-size: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+    gap: 900px;
+    position: absolute;
+    
+}
+
+.block_circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    background-color: #F77E23;
+}
+
+.fa-chevron-left,
+.fa-chevron-right{
+    color: #ffffff;
+}
+
+@media (max-width: 400px){
+
+    body{
+        width: 400px;
+        height: 500px;
+        background-size: 540px;
+    }
+
+    header{
+        background-color: #FFFFFF;
+        height: 50px;
+        position: relative;
+    }
+
+    .logo{
+        font-size: 15px;
+        margin-right: 30px;
+    }
+
+
+    .logo,
+    .fa-bars{
+        display: flex;
+        align-items: center;
+    }
+
+    .bars{
+        display: block;
+    }
+
+
+    nav,
+    .icon_button{
+        display: none;
+    }
+
+    .user_icon{
+        position: absolute;
+        display: block;
+        right: 0;
+    }
+
+    .content h2{
+        font-size: 30px;
+        width: 400px;
+        height: 80px;
+        margin-top: 50px;
+    }
+
+    .content p{
+        width:370px;
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .bg_img{
+        height: 560px;
+        width: 350px;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav .main_list{
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 170px;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .icon{
+        padding: 10px;
+        border: 1px solid #FF6F28;
+        width: 300px;
+        border-radius: 50px;
+    }
+
+
+    .head_main{
+        font-size: 30px;
+    }
+    
+
+    .layout{
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    .card img{
+        filter: brightness(50%);
+        width: 200px;
+        height: 250px;
+    }
+
+    .block{
+        display: none;
+    }
+}
