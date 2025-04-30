@@ -20,10 +20,13 @@
     <div class="container">
         <header>
             <div class="logo">
-                <div class="bars"><i class="fa-solid fa-bars"></i></div>
-                <h1>Fontaine</h1>
+                <div id="menu-toggle" class="bars">
+                    <i id="bar-icon" class="fa-solid fa-bars"></i>
+                    <i style="display: none; color: white;" id="close-icon" class="fa-solid fa-xmark"></i>
+                </div>
+                <h1 id="head-logo">Fontaine</h1>
             </div>
-            <nav>
+            <nav id="mobile-nav">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Courses</a></li>
@@ -109,5 +112,6 @@
 
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
